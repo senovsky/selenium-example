@@ -4,12 +4,15 @@
   "description": "Example project of Selenium WebDriver v4 with JavaScript",
   "main": "index.js",
   "scripts": {
-    "test": "node firstScript.spec.js"
+    "test": "mocha first-script.spec.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "selenium-webdriver": "^4.34.0",
-    "mocha": "^11.7.1"
+    "mocha": "11.7.1",
+    "selenium-webdriver": "4.34.0"
+  },
+  "devDependencies": {
+    "prettier": "3.6.2"
   }
 }
